@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
     vendor/meizu/m2note/proprietary/system/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
     vendor/meizu/m2note/proprietary/system/bin/MtkCodecService:system/bin/MtkCodecService \
-    vendor/meizu/m2note/proprietary/system/bin/aee:system/bin/aee \
     vendor/meizu/m2note/proprietary/system/bin/flymed:system/bin/flymed \
     vendor/meizu/m2note/proprietary/system/bin/iperf:system/bin/iperf \
     vendor/meizu/m2note/proprietary/system/bin/nmbd:system/bin/nmbd \
@@ -29,8 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/bin/pppoe:system/bin/pppoe \
     vendor/meizu/m2note/proprietary/system/bin/smbd:system/bin/smbd \
     vendor/meizu/m2note/proprietary/system/bin/smbpasswd:system/bin/smbpasswd \
-    vendor/meizu/m2note/proprietary/system/bin/aee_archive:system/bin/aee_archive \
-    vendor/meizu/m2note/proprietary/system/bin/aee_dumpstate:system/bin/aee_dumpstate \
     vendor/meizu/m2note/proprietary/system/bin/akmd8963:system/bin/akmd8963 \
     vendor/meizu/m2note/proprietary/system/bin/akmd8975:system/bin/akmd8975 \
     vendor/meizu/m2note/proprietary/system/bin/ami304d:system/bin/ami304d \
@@ -102,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/bin/rtt:system/bin/rtt \
     vendor/meizu/m2note/proprietary/system/bin/run-as:system/bin/run-as \
     vendor/meizu/m2note/proprietary/system/bin/s62xd:system/bin/s62xd \
-    vendor/meizu/m2note/proprietary/system/bin/sn:system/bin/sn \
     vendor/meizu/m2note/proprietary/system/bin/terservice:system/bin/terservice \
     vendor/meizu/m2note/proprietary/system/bin/tertestclient:system/bin/tertestclient \
     vendor/meizu/m2note/proprietary/system/bin/thermal:system/bin/thermal \
