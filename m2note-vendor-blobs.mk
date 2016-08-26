@@ -617,7 +617,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/lib64/libmtksqlite3_custom.so:system/lib64/libmtksqlite3_custom.so \
     vendor/meizu/m2note/proprietary/system/lib64/libmtksqlite3_android.so:system/lib64/libmtksqlite3_android.so \
     vendor/meizu/m2note/proprietary/system/bin/akmd09911:system/bin/akmd09911 \
-    vendor/meizu/m2note/proprietary/system/bin/program_binary_service:system/bin/program_binary_service \
     vendor/meizu/m2note/proprietary/system/lib/libcam.hal3a.v3.dng.so:system/lib/libcam.hal3a.v3.dng.so \
     vendor/meizu/m2note/proprietary/system/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
     vendor/meizu/m2note/proprietary/system/lib/libmmsdkservice.feature.so:system/lib/libmmsdkservice.feature.so \
