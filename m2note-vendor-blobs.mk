@@ -31,8 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/bin/akmd8963:system/bin/akmd8963 \
     vendor/meizu/m2note/proprietary/system/bin/akmd8975:system/bin/akmd8975 \
     vendor/meizu/m2note/proprietary/system/bin/ami304d:system/bin/ami304d \
-    vendor/meizu/m2note/proprietary/system/bin/atci_service:system/bin/atci_service \
-    vendor/meizu/m2note/proprietary/system/bin/atcid:system/bin/atcid \
     vendor/meizu/m2note/proprietary/system/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
     vendor/meizu/m2note/proprietary/system/bin/autokd:system/bin/autokd \
     vendor/meizu/m2note/proprietary/system/bin/badblocks:system/bin/badblocks \
