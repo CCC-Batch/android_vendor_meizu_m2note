@@ -94,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/bin/rtt:system/bin/rtt \
     vendor/meizu/m2note/proprietary/system/bin/run-as:system/bin/run-as \
     vendor/meizu/m2note/proprietary/system/bin/s62xd:system/bin/s62xd \
-    vendor/meizu/m2note/proprietary/system/bin/sn:system/bin/sn \
     vendor/meizu/m2note/proprietary/system/bin/terservice:system/bin/terservice \
     vendor/meizu/m2note/proprietary/system/bin/tertestclient:system/bin/tertestclient \
     vendor/meizu/m2note/proprietary/system/bin/thermal:system/bin/thermal \
