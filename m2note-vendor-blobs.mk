@@ -20,19 +20,11 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
     vendor/meizu/m2note/proprietary/system/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
     vendor/meizu/m2note/proprietary/system/bin/MtkCodecService:system/bin/MtkCodecService \
-    vendor/meizu/m2note/proprietary/system/bin/aee:system/bin/aee \
-    vendor/meizu/m2note/proprietary/system/bin/flymed:system/bin/flymed \
     vendor/meizu/m2note/proprietary/system/bin/iperf:system/bin/iperf \
-    vendor/meizu/m2note/proprietary/system/bin/nmbd:system/bin/nmbd \
     vendor/meizu/m2note/proprietary/system/bin/ntfs-3g:system/bin/ntfs-3g \
-    vendor/meizu/m2note/proprietary/system/bin/pppd_via:system/bin/pppd_via \
-    vendor/meizu/m2note/proprietary/system/bin/pppoe:system/bin/pppoe \
-    vendor/meizu/m2note/proprietary/system/bin/smbd:system/bin/smbd \
-    vendor/meizu/m2note/proprietary/system/bin/smbpasswd:system/bin/smbpasswd \
-    vendor/meizu/m2note/proprietary/system/bin/aee_archive:system/bin/aee_archive \
-    vendor/meizu/m2note/proprietary/system/bin/aee_dumpstate:system/bin/aee_dumpstate \
     vendor/meizu/m2note/proprietary/system/bin/akmd8963:system/bin/akmd8963 \
     vendor/meizu/m2note/proprietary/system/bin/akmd8975:system/bin/akmd8975 \
+    vendor/meizu/m2note/proprietary/system/bin/akmd09911:system/bin/akmd09911 \
     vendor/meizu/m2note/proprietary/system/bin/ami304d:system/bin/ami304d \
     vendor/meizu/m2note/proprietary/system/bin/atci_service:system/bin/atci_service \
     vendor/meizu/m2note/proprietary/system/bin/atcid:system/bin/atcid \
@@ -76,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/bin/mtkbt:system/bin/mtkbt \
     vendor/meizu/m2note/proprietary/system/bin/mtkrild:system/bin/mtkrild \
     vendor/meizu/m2note/proprietary/system/bin/mtkrildmd2:system/bin/mtkrildmd2 \
-    vendor/meizu/m2note/proprietary/system/bin/muxreport:system/bin/muxreport \
     vendor/meizu/m2note/proprietary/system/bin/netcfg:system/bin/netcfg \
     vendor/meizu/m2note/proprietary/system/bin/netdiag:system/bin/netdiag \
     vendor/meizu/m2note/proprietary/system/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
@@ -127,7 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/etc/firmware/WIFI_RAM_CODE_6735:system/etc/firmware/WIFI_RAM_CODE_6735 \
     vendor/meizu/m2note/proprietary/system/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
     vendor/meizu/m2note/proprietary/system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_1_ltg_n:system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_1_ltg_n \
-    vendor/meizu/m2note/proprietary/system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_1_lwg_n:etc/system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_1_lwg_n \
+    vendor/meizu/m2note/proprietary/system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_1_lwg_n:system/etc/mddb/BPLGUInfoCustomAppSrcP_MT6735_S00_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_1_lwg_n \
     vendor/meizu/m2note/proprietary/system/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.CMCC.MP_MEIZU6753_65C_L1_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_2016_06_12_17_29_1_ltg_n:system/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.CMCC.MP_MEIZU6753_65C_L1_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_2016_06_12_17_29_1_ltg_n \
     vendor/meizu/m2note/proprietary/system/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.CMCC.MP_MEIZU6753_65C_L1_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_2016_06_12_17_41_1_lwg_n:system/etc/mddb/DbgInfo_LR9.W1444.MD.LWTG.CMCC.MP_MEIZU6753_65C_L1_MOLY_LR9_W1444_MD_LWTG_CMCC_MP_V9_P42_2016_06_12_17_41_1_lwg_n \
     vendor/meizu/m2note/proprietary/system/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
@@ -152,6 +143,10 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/lib/libAGifEncoder.so:system/lib/libAGifEncoder.so \
     vendor/meizu/m2note/proprietary/system/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
     vendor/meizu/m2note/proprietary/system/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
+    vendor/meizu/m2note/proprietary/system/lib/libgccdemangle.so:system/lib/libgccdemangle.so \
+    vendor/meizu/m2note/proprietary/system/lib64/libgccdemangle.so:system/lib64/libgccdemangle.so \
+    vendor/meizu/m2note/proprietary/system/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/meizu/m2note/proprietary/system/lib64/libstlport.so:system/lib64/libstlport.so \
     vendor/meizu/m2note/proprietary/system/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
     vendor/meizu/m2note/proprietary/system/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
     vendor/meizu/m2note/proprietary/system/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
@@ -618,7 +613,6 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m2note/proprietary/system/lib64/libdngop.so:system/lib64/libdngop.so \
     vendor/meizu/m2note/proprietary/system/lib64/libmtksqlite3_custom.so:system/lib64/libmtksqlite3_custom.so \
     vendor/meizu/m2note/proprietary/system/lib64/libmtksqlite3_android.so:system/lib64/libmtksqlite3_android.so \
-    vendor/meizu/m2note/proprietary/system/bin/akmd09911:system/bin/akmd09911 \
     vendor/meizu/m2note/proprietary/system/lib/libcam.hal3a.v3.dng.so:system/lib/libcam.hal3a.v3.dng.so \
     vendor/meizu/m2note/proprietary/system/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
     vendor/meizu/m2note/proprietary/system/lib/libmmsdkservice.feature.so:system/lib/libmmsdkservice.feature.so \
